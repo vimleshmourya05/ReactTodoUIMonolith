@@ -25,6 +25,7 @@ pipeline {
                 echo 'Building the React app...'
                 sh '''curl -s https://deb.nodesource.com/setup_16.x | sudo bash
                 sudo apt install nodejs -y
+                sudo apt-get update
                 npm install
 '''
             }
