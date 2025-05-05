@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-      docker {
-        image 'node:18'  // or whichever version your React app needs
-        }
+    agent any
     }
 
     environment {
