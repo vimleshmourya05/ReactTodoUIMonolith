@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning repository...'
-                git url: 'https://github.com/your-org/your-react-app.git', branch: 'main'
+                git url: 'https://github.com/vimleshmourya05/ReactTodoUIMonolith.git', branch: 'main'
             }
         }
 
